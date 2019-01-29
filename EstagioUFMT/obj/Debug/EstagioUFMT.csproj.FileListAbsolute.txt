@@ -1,0 +1,186 @@
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\EstagioUFMT.dll.config
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\EstagioUFMT.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\EstagioUFMT.pdb
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\csc.exe
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\csc.exe.config
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\csc.rsp
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\csi.exe
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\csi.exe.config
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\csi.rsp
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.AppContext.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Console.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.IO.Compression.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.IO.Pipes.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Security.Claims.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.ValueTuple.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Xml.XPath.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\vbc.exe
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\vbc.exe.config
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\vbc.rsp
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\VBCSCompiler.exe
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\Antlr3.Runtime.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\Newtonsoft.Json.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Helpers.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Mvc.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Optimization.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Razor.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.WebPages.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.WebPages.Razor.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\WebGrease.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Helpers.xml
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Mvc.xml
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Optimization.xml
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Razor.xml
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.WebPages.xml
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.WebPages.Razor.xml
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\Newtonsoft.Json.xml
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\Antlr3.Runtime.pdb
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\obj\Debug\EstagioUFMT.csprojAssemblyReference.cache
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\obj\Debug\EstagioUFMT.csproj.CoreCompileInputs.cache
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\obj\Debug\EstagioUFMT.csproj.CopyComplete
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\obj\Debug\EstagioUFMT.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\obj\Debug\EstagioUFMT.pdb
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\EntityFramework.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\EntityFramework.SqlServer.dll
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\EntityFramework.xml
+C:\Users\DOWGLAS ZORZO\source\repos\EstagioUFMT\EstagioUFMT\bin\EntityFramework.SqlServer.xml
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\EstagioUFMT.dll.config
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\EstagioUFMT.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\EstagioUFMT.pdb
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\csc.exe
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\csc.exe.config
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\csc.rsp
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\csi.exe
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\csi.exe.config
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\csi.rsp
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.AppContext.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Console.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.IO.Compression.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.IO.Pipes.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Security.Claims.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.ValueTuple.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Xml.XPath.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\vbc.exe
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\vbc.exe.config
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\vbc.rsp
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\VBCSCompiler.exe
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\Antlr3.Runtime.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\EntityFramework.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\EntityFramework.SqlServer.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\Newtonsoft.Json.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Helpers.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Mvc.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Optimization.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Razor.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.WebPages.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.WebPages.Razor.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\WebGrease.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\EntityFramework.xml
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\EntityFramework.SqlServer.xml
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Helpers.xml
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Mvc.xml
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Optimization.xml
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.Razor.xml
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.WebPages.xml
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Web.WebPages.Razor.xml
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\Newtonsoft.Json.xml
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\Antlr3.Runtime.pdb
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\obj\Debug\EstagioUFMT.csprojAssemblyReference.cache
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\obj\Debug\EstagioUFMT.csproj.CoreCompileInputs.cache
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\obj\Debug\EstagioUFMT.csproj.CopyComplete
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\obj\Debug\EstagioUFMT.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\obj\Debug\EstagioUFMT.pdb
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\PagedList.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\PagedList.Mvc.dll
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\PagedList.xml
+C:\Users\dowgl\source\repos\EstagioUFMT\EstagioUFMT\bin\PagedList.Mvc.xml

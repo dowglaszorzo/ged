@@ -1,0 +1,67 @@
+﻿@model EstagioUFMT.Models.Saida
+@{
+    ViewBag.Title = "Detalhes";
+}
+<h2>Detalhes do Aluno</h2>
+<hr />
+<div>
+    <div class="form-horizontal">
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.codCadastro, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.codCadastro,
+                                   new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Aluno.Nome, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.Aluno.Nome,
+                                   new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Ensino.tipo_de_ensino, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.Ensino.tipo_de_ensino,
+                          new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Escola.nome, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.Escola.nome,
+                          new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.ano, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.ano,
+                          new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.statusAluno, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.statusAluno,
+                          new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.anoStatus, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.anoStatus,
+                          new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+
+    </div>
+</div>

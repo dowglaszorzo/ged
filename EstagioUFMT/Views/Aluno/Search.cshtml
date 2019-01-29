@@ -1,0 +1,88 @@
+﻿@model EstagioUFMT.Models.PesquisaViewModel
+@using PagedList.Mvc;
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+@{
+    /**/
+
+    ViewBag.Title = "Pesquisar";
+}
+
+
+
+<div class="form-horizontal">
+
+    <div class="row">
+
+        @using (Html.BeginForm())
+        {
+
+        <div class="col-md-4">
+            <h2>Pesquisar</h2>
+            <label>Codigo:</label>
+            @Html.TextBox("pesquisarCod", null, new { @class = "form-control" })
+
+            <label>Nome:</label>
+            @Html.TextBox("pesquisarnome", null, new { @class = "form-control" })
+
+            <label>Ano:</label>
+            @Html.TextBox("pesquisarano", null, new { @class = "form-control" })
+
+           
+
+            <label>Tipos de Ensinos:</label>
+            @Html.DropDownList("pesquisarEnsino", new SelectList(ViewBag.Ensinos, "tipo_de_ensino", "tipo_de_ensino"), "Selecionar", new { @class = "form-control" })
+
+            <label></label>
+            <div>
+                <input type="submit" value="Pesquisar" class="btn btn-primary" />
+                @Html.HiddenFor(model => model.page, 1)
+            </div>
+
+        </div>
+        }
+
+            <div class="col-md-8">
+
+                <table class="table" style="margin-top: 20px">
+                    <tr>
+
+                        <th> @Html.ActionLink("Cod Aluno", "Search", new { sortOrder = ViewBag.codSortParm })</th>
+                        <th> @Html.ActionLink("Nome", "Search", new { sortOrder = ViewBag.NomeSortParm })</th>
+                        <th> @Html.ActionLink("Tipo de Ensino", "Search", new { sortOrder = ViewBag.TipoDeEnsinoSortParm })</th>
+                        <th> @Html.ActionLink("Ano", "Search", new { sortOrder = ViewBag.AnoSortParm })</th>
+                       
+
+                        <th>@Html.DisplayName("Opções")</th>
+
+
+                    </tr>
+                    @foreach (var item in Model.lista)
+                    {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.codCadastro)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Aluno.Nome)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Ensino.tipo_de_ensino)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ano)</td>
+                        
+                        <td>
+                            @Html.ActionLink("Editar", "Details", new { id = item.codCadastro }) |
+                            @Html.ActionLink("Visualizar", "Show", new { id = item.codCadastro }) |
+                            @Html.ActionLink("Deletar", "Delete", new { id = item.codCadastro }) |
+
+                        </td>
+
+
+                    </tr>
+                    }
+
+                </table>
+                <br />
+                @Html.PagedListPager(Model.lista, page => Url.Action("Search", new { page, sortOrder = Model.sortOrder, pesquisarCod = Model.pesquisarCod, pesquisartNome = Model.pesquisarNome, pesquisarAno = Model.pesquisarano, pesquisarEnsino = Model.pesquisarEnsino }))
+                Page @(Model.lista.PageCount < Model.lista.PageNumber ? 0 : Model.lista.PageNumber) of @Model.lista.PageCount
+            </div>
+    </div>
+</div>         
+
+
+
