@@ -14,6 +14,7 @@ namespace EstagioUFMT.Models
         public int codUsuario { get; set; }
         public int cpf { get; set; }
         public string nome { get; set; }
+        public string senha { get; set; }
 
         public int codEscola { get; set; }
        

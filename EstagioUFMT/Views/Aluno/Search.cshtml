@@ -36,7 +36,7 @@
             <label></label>
             <div>
                 <input type="submit" value="Pesquisar" class="btn btn-primary" />
-                @Html.HiddenFor(model => model.page, 1)
+                <input type="hidden" name="page" id="p" value="1" />
             </div>
 
         </div>
@@ -45,13 +45,15 @@
             <div class="col-md-8">
 
                 <table class="table" style="margin-top: 20px">
+
+
                     <tr>
 
-                        <th> @Html.ActionLink("Cod Aluno", "Search", new { sortOrder = ViewBag.codSortParm })</th>
-                        <th> @Html.ActionLink("Nome", "Search", new { sortOrder = ViewBag.NomeSortParm })</th>
-                        <th> @Html.ActionLink("Tipo de Ensino", "Search", new { sortOrder = ViewBag.TipoDeEnsinoSortParm })</th>
-                        <th> @Html.ActionLink("Ano", "Search", new { sortOrder = ViewBag.AnoSortParm })</th>
-                       
+                        <th> @Html.ActionLink("Cod Aluno", "Search", new { sortOrder = ViewBag.codSortParm, pesquisarCod = ViewBag.filterCod, pesquisarNome = ViewBag.filterNome, pesquisarEnsino = ViewBag.filterEnsino, pesquisarAno = ViewBag.filterAno })</th>
+                        <th> @Html.ActionLink("Nome", "Search", new { sortOrder = ViewBag.NomeSortParm, pesquisarCod = ViewBag.filterCod, pesquisarNome = ViewBag.filterNome, pesquisarEnsino = ViewBag.filterEnsino, pesquisarAno = ViewBag.filterAno })</th>
+                        <th> @Html.ActionLink("Tipo de Ensino", "Search", new { sortOrder = ViewBag.TipoDeEnsinoSortParm, pesquisarCod = ViewBag.filterCod, pesquisarNome = ViewBag.filterNome, pesquisarEnsino = ViewBag.filterEnsino, pesquisarAno = ViewBag.filterAno })</th>
+                        <th> @Html.ActionLink("Ano", "Search", new { sortOrder = ViewBag.AnoSortParm, pesquisarCod = ViewBag.filterCod, pesquisarNome = ViewBag.filterNome, pesquisarEnsino = ViewBag.filterEnsino, pesquisarAno = ViewBag.filterAno })</th>
+
 
                         <th>@Html.DisplayName("Opções")</th>
 
@@ -78,7 +80,7 @@
 
                 </table>
                 <br />
-                @Html.PagedListPager(Model.lista, page => Url.Action("Search", new { page, sortOrder = Model.sortOrder, pesquisarCod = Model.pesquisarCod, pesquisartNome = Model.pesquisarNome, pesquisarAno = Model.pesquisarano, pesquisarEnsino = Model.pesquisarEnsino }))
+                @Html.PagedListPager(Model.lista, page => Url.Action("Search", new { page, sortOrder = Model.sortOrder, pesquisarCod = Model.pesquisarCod, pesquisarNome = Model.pesquisarNome, pesquisarAno = Model.pesquisarano, pesquisarEnsino = Model.pesquisarEnsino }))
                 Page @(Model.lista.PageCount < Model.lista.PageNumber ? 0 : Model.lista.PageNumber) of @Model.lista.PageCount
             </div>
     </div>

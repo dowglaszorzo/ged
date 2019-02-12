@@ -29,6 +29,7 @@ namespace EstagioUFMT.Controllers
         public ActionResult Create()
         {
             ViewBag.Ensinos = db.Ensinos;
+            ViewBag.Situacao = db.Situacao;
 
             var model = new SaidaViewModel();
             return View(model);
@@ -48,10 +49,11 @@ namespace EstagioUFMT.Controllers
 
 
                 cadastro2.Nome = model.Nome;
+                cadastro2.NomeMae = model.NomeMae;
+                cadastro2.dataNasc = model.dataNasc;
+
                 db.Alunos.Add(cadastro2);
                 db.SaveChanges();
-
-
 
                 ///CADASTRO DE SAIDAS
 
@@ -60,6 +62,9 @@ namespace EstagioUFMT.Controllers
                 cadastro.codEnsino = model.codEnsino;
                 cadastro.codEscola = 1;
                 cadastro.ano = model.ano;
+                cadastro.serie = model.serie;
+                cadastro.local = model.local;
+                cadastro.codSituacao = 1;
                 cadastro.statusAluno = model.statusAluno;
                 cadastro.anoStatus = model.anoStatus;
 
@@ -91,7 +96,10 @@ namespace EstagioUFMT.Controllers
             ViewBag.AnoSortParm = String.IsNullOrEmpty(vm.sortOrder) ? "ano_desc" : "";
             ViewBag.NomeEscolaSortParm = String.IsNullOrEmpty(vm.sortOrder) ? "nomeEscola_desc" : "";
 
-            
+            ViewBag.filterCod = vm.pesquisarCod;
+            ViewBag.filterNome = vm.pesquisarNome;
+            ViewBag.filterAno = vm.pesquisarano;
+            ViewBag.filterEnsino = vm.pesquisarEnsino;
 
             var students = from s in db.Saidas select s;
             var tiposDeEnsinos = from a in db.Ensinos select a;
@@ -130,8 +138,7 @@ namespace EstagioUFMT.Controllers
             if (!string.IsNullOrEmpty(pCod))
             {
                 students = students.Where(s => DbFunctions.Like(s.codAluno.ToString().ToUpper(), "%" + vm.pesquisarCod.ToString().ToUpper() + "%"));
-
-               
+                
             }
 
             if (!string.IsNullOrEmpty(ConvAno))
@@ -150,8 +157,6 @@ namespace EstagioUFMT.Controllers
                 students = students.Where(s => DbFunctions.Like(s.Ensino.tipo_de_ensino.ToUpper(), "%" + vm.pesquisarEnsino.ToUpper() + "%"));
             }
 
-
-        
             int pageSize = 5;
             int pageNumber = (vm.page ?? 1);
             vm.lista = students.ToPagedList(pageNumber, pageSize);
@@ -182,7 +187,7 @@ namespace EstagioUFMT.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Details([Bind(Include = "codCadastro,statusAluno,anoStatus")] Saida model)
+        public ActionResult Details([Bind(Include = "codCadastro,statusAluno,anoStatus,ano")] Saida model)
         {
             if (ModelState.IsValid)
             {
@@ -194,6 +199,7 @@ namespace EstagioUFMT.Controllers
 
                 saida.statusAluno = model.statusAluno;
                 saida.anoStatus = model.anoStatus;
+                saida.ano = model.ano;
 
 
                 db.SaveChanges();
@@ -233,8 +239,7 @@ namespace EstagioUFMT.Controllers
 
             return RedirectToAction("Search");
         }
-
-
+        
         //Aluno/Visualizar
         public ActionResult Show(int? id)
         {

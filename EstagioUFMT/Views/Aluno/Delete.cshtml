@@ -5,7 +5,7 @@
 <h2>Deletar Aluno</h2>
 <h3 class="text-danger">Deseja deletar este Aluno ?</h3>
 <div class="form-horizontal">
-    
+
     <div class="form-group">
         @Html.LabelFor(m => m.codCadastro, new { @class = "control-label col-md-2" })
         <div class="col-md-10">
@@ -22,6 +22,24 @@
                                       new { @class = "form-control", @disabled = "disabled" })
         </div>
     </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Aluno.NomeMae, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Aluno.NomeMae,
+                                      new { @class = "form-control", @disabled = "disabled" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Aluno.dataNasc, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Aluno.dataNasc,
+                                      new { @class = "form-control", @disabled = "disabled" })
+        </div>
+    </div>
+
+
     <div class="form-group">
         @Html.LabelFor(m => m.Escola.nome, new { @class = "control-label col-md-2" })
         <div class="col-md-10">
@@ -42,6 +60,31 @@
         @Html.LabelFor(m => m.ano, new { @class = "control-label col-md-2" })
         <div class="col-md-10">
             @Html.TextBoxFor(m => m.ano,
+                          new { @class = "form-control", @disabled = "disabled" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.serie, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.serie,
+                          new { @class = "form-control", @disabled = "disabled" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Situacao.situacao, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Situacao.situacao,
+                          new { @class = "form-control", @disabled = "disabled" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.local, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.local,
                           new { @class = "form-control", @disabled = "disabled" })
         </div>
     </div>

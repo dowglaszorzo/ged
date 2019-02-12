@@ -5,9 +5,11 @@ using System.Web;
 
 namespace EstagioUFMT.Models
 {
-	public class PesquisaViewModel
-	{
+    public class PesquisaViewModel
+    {
         public string sortOrder { get; set; }
+        
+       
         public int ? page { get; set; }
         
          

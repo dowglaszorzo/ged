@@ -144,6 +144,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Classes\Aluno.cs" />
+    <Compile Include="Models\Classes\Situacao.cs" />
     <Compile Include="Models\DataBaseContext.cs" />
     <Compile Include="Models\Classes\Ensino.cs" />
     <Compile Include="Models\Classes\Escola.cs" />

@@ -13,12 +13,11 @@ namespace EstagioUFMT.Models
         [Key]
         public int codAluno { get; set; }
         public string Nome { get; set; }
+        [Display(Name = "Nome Mãe")]
+        public string NomeMae { get; set; }
+        [Display(Name = "Data de Nascimento")]
+        public string dataNasc { get; set; }
 
-
-
-        
-        
-        
         public List<Saida> Saidas { get; set; }
 
     }

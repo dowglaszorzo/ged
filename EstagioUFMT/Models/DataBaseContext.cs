@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EstagioUFMT.Models.Classes;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -13,5 +14,6 @@ namespace EstagioUFMT.Models
         public DbSet<Escola> Escolas { get; set; }
         public DbSet<Saida> Saidas { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Situacao> Situacao { get; set; }
     }
 }

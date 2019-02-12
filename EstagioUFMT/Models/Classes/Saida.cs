@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EstagioUFMT.Models.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -10,13 +11,14 @@ namespace EstagioUFMT.Models
     [Table("Saida")]
     public class Saida
     {
+        [Display(Name = "Codigo")]
         [Key]
         public int codCadastro { get; set; }
 
 
         
         [Display(Name = "Ano")]
-        public int ano { get; set; }
+        public int? ano { get; set; }
 
 
         
@@ -32,7 +34,15 @@ namespace EstagioUFMT.Models
         public int codEnsino { get; set; }
         public virtual Ensino Ensino { get; set; }
         public int codEscola { get; set; }
+        [Display(Name = "Serie")]
+        public string serie { get; set; }
+        public int? codSituacao { get; set; }
+        [Display(Name = "Local")]
+        public string local { get; set; }
+
+
         public virtual Escola Escola { get; set; }
+        public virtual Situacao Situacao { get; set; }
 
     }
 }
